@@ -1,0 +1,1 @@
+export default function Gallery(){return <section className="section"><div className="container"><span className="pill">✨ Visual mood</span><h2 className="section-title">A digital ghat at golden hour</h2><div className="gallery-grid"><div>🌅</div><div>🪔</div><div>🌊</div><div>🙏</div></div></div></section>}

@@ -1,0 +1,1 @@
+import GhatAvailability from "../components/GhatAvailability/GhatAvailability"; export default function GhatExplorer(){return <GhatAvailability/>}

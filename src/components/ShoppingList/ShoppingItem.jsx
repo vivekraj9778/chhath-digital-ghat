@@ -1,0 +1,1 @@
+export default function ShoppingItem({item,checked,onChange}){return <label className="shop-item"><input type="checkbox" checked={checked} onChange={onChange}/><span>{item.icon}</span><span>{item.name}</span></label>}

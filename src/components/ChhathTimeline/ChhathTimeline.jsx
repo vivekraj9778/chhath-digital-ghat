@@ -1,0 +1,2 @@
+import { chhathDays } from "../../data/chhathDays"; import DayCard from "./DayCard"; import "./ChhathTimeline.css";
+export default function ChhathTimeline(){return <section className="section" id="timeline"><div className="container"><span className="pill">📅 Four sacred days</span><h2 className="section-title">The Chhath journey</h2><div className="grid grid-2">{chhathDays.map((d,i)=><DayCard key={d.date} day={d} index={i}/>)}</div></div></section>}

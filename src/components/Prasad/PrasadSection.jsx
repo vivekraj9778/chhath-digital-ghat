@@ -1,0 +1,2 @@
+import { prasad } from "../../data/prasad"; import "./Prasad.css";
+export default function PrasadSection(){return <section className="section"><div className="container"><span className="pill">🍪 Prasad</span><h2 className="section-title">Traditional favourites</h2><div className="grid grid-2">{prasad.map(p=><article className="card prasad-card" key={p.name}><span>{p.icon}</span><div><h3>{p.name}</h3><p>{p.desc}</p></div></article>)}</div></div></section>}

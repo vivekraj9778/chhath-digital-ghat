@@ -1,0 +1,1 @@
+export default function FruitCard({item}){return <div className="fruit-card"><span>{item[1]}</span><div><strong>{item[0]}</strong><small>{item[2]}</small></div></div>}

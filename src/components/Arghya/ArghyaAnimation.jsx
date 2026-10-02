@@ -1,0 +1,2 @@
+import { useState } from "react"; import "./Arghya.css";
+export default function ArghyaAnimation(){const [active,setActive]=useState(false);return <div className={active?"arghya active":"arghya"}><div className="arghya-sun">☀️</div><div className="arghya-water">🌊</div><button className="btn" onClick={()=>setActive(true)}>{active?"🙏 Arghya Offered":"🙏 Offer Digital Arghya"}</button>{active&&<div className="bless">May Chhathi Maiya bless your family with peace and prosperity. 🪔</div>}</div>}

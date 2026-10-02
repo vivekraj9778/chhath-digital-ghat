@@ -1,0 +1,2 @@
+import { rituals } from "../../data/rituals"; import RitualCard from "./RitualCard"; import "./Rituals.css";
+export default function Rituals(){return <section className="section" id="guide"><div className="container"><span className="pill">📖 Guide</span><h2 className="section-title">What happens each day?</h2><div className="grid grid-2">{rituals.map(x=><RitualCard key={x.day} item={x}/>)}</div></div></section>}

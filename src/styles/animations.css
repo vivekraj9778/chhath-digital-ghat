@@ -1,0 +1,6 @@
+@keyframes float { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-12px)} }
+@keyframes flicker { 0%,100%{filter:drop-shadow(0 0 8px #ffb703)} 50%{filter:drop-shadow(0 0 24px #ffd166)} }
+@keyframes wave { 0%,100%{transform:translateX(0)} 50%{transform:translateX(-18px)} }
+@keyframes rise { from{transform:translateY(35px);opacity:0} to{transform:translateY(0);opacity:1} }
+.float { animation: float 4s ease-in-out infinite; }
+.flicker { animation: flicker 1.8s ease-in-out infinite; }

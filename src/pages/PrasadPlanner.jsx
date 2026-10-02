@@ -1,0 +1,1 @@
+import KharnaCalculator from "../components/KharnaCalculator/KharnaCalculator"; import FruitPlanner from "../components/FruitPlanner/FruitPlanner"; export default function PrasadPlanner(){return <><KharnaCalculator/><FruitPlanner/></>}

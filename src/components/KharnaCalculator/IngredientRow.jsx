@@ -1,0 +1,1 @@
+export default function IngredientRow({item}){return <div className="ingredient-row"><span className="ingredient-icon">{item.icon}</span><span>{item.name}</span><strong>{item.display}</strong></div>}

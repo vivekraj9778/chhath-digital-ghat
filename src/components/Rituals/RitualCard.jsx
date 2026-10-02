@@ -1,0 +1,1 @@
+export default function RitualCard({item}){return <article className="card ritual"><div className="ritual-icon">{item.icon}</div><h3>{item.day}</h3><ul>{item.points.map(x=><li key={x}>{x}</li>)}</ul></article>}

@@ -1,0 +1,1 @@
+export default function LoadingScreen(){return <div style={{minHeight:"100vh",display:"grid",placeItems:"center",background:"#100806",color:"#ffd166"}}>🪔 Loading Chhath Digital Ghat…</div>}

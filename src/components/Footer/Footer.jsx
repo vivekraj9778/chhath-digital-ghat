@@ -1,0 +1,1 @@
+export default function Footer(){return <footer style={{borderTop:"1px solid var(--border)",padding:"35px 0",color:"var(--muted)"}}><div className="container row between"><strong style={{color:"var(--gold-2)"}}>🪔 Chhath Digital Ghat</strong><span>Built with React • For learning & celebration</span></div></footer>}

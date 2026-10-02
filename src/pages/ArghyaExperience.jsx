@@ -1,0 +1,1 @@
+import ArghyaSection from "../components/Arghya/ArghyaSection"; export default function ArghyaExperience(){return <ArghyaSection/>}

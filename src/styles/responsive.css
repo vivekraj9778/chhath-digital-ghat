@@ -1,0 +1,8 @@
+@media (max-width: 800px) {
+  .grid-2, .grid-3 { grid-template-columns: 1fr; }
+  .section { padding: 62px 0; }
+  .container { width: min(100% - 22px, 1160px); }
+}
+@media (max-width: 520px) {
+  .section-title { font-size: 2rem; }
+}

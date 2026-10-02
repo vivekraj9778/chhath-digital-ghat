@@ -1,0 +1,1 @@
+import WishGenerator from "../components/WishGenerator/WishGenerator"; export default function Wishes(){return <WishGenerator/>}

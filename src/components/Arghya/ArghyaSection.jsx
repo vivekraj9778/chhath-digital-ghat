@@ -1,0 +1,2 @@
+import ArghyaAnimation from "./ArghyaAnimation"; import "./Arghya.css";
+export default function ArghyaSection(){return <section className="section"><div className="container"><span className="pill">🙏 Interactive experience</span><h2 className="section-title">Offer a digital Arghya</h2><p className="section-subtitle">A symbolic interactive experience for the website—your real puja remains personal and according to your family tradition.</p><ArghyaAnimation/></div></section>}

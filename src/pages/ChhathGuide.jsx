@@ -1,0 +1,1 @@
+import Rituals from "../components/Rituals/Rituals"; export default function ChhathGuide(){return <Rituals/>}

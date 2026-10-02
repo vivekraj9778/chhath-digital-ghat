@@ -1,0 +1,3 @@
+import { useCountdown } from "../../hooks/useCountdown";
+import "./Countdown.css";
+export default function Countdown(){const t=useCountdown("2026-11-13T00:00:00+05:30");return <section className="section"><div className="container card countdown-card"><span className="pill">⏳ Chhath 2026</span><h2 className="section-title">The sacred days are approaching</h2><div className="count-grid">{Object.entries(t).map(([k,v])=><div key={k}><strong>{String(v).padStart(2,"0")}</strong><span>{k}</span></div>)}</div></div></section>}

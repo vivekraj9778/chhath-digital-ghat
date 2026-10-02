@@ -1,0 +1,1 @@
+export default function DayCard({day,index}){return <article className="day-card card"><div className="day-num">0{index+1}</div><div className="day-icon">{day.icon}</div><h3>{day.title}</h3><p>{day.description}</p><small>{new Date(day.date+"T12:00:00").toLocaleDateString("en-IN",{day:"numeric",month:"long",year:"numeric"})}</small></article>}
